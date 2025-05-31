@@ -1,0 +1,14 @@
+import React from 'react';
+import Gallery from './Gallery';
+import './Gallery.css';
+import './App.css';
+
+function App() {
+  return (
+    <div className="cinematic-container">
+      <Gallery />
+    </div>
+  );
+}
+
+export default App;
